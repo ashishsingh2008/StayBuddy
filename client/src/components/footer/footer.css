@@ -1,0 +1,16 @@
+.footer{
+  background-color: rgba(37, 36, 36, 0.937);
+  width: 100%;
+  color: white;
+  height: 40px;
+  }
+
+  .fText
+  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 8px;
+    font-size: large;
+    letter-spacing: 0.5px;
+  }

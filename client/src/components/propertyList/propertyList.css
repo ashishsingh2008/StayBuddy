@@ -1,0 +1,35 @@
+.pList{
+    width: 60%;
+    min-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  
+  .pListItem{
+    flex:1;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 320px;
+    cursor: pointer;
+    background-color: rgba(239, 241, 241, 0.889);
+  }
+  
+  .pListImg{
+    height: 260px;
+    object-fit: cover;
+  }
+  
+  .pListTitles>h1{
+    font-size: 20px;
+    padding-left: 15px;
+    color: #444;
+    padding-top: 3px;
+    text-transform: capitalize;
+  }
+  
+  .pListTitles>h2{
+    font-size: 17px;
+    font-weight: 300;
+    padding-left: 15px;
+  }
