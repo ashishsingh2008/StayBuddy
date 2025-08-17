@@ -22,7 +22,7 @@ const Datatable = ({ columns }) => {
 
   const handleDelete = async (id) => {
     try {
-      await axios.delete(`http://localhost:8800/${path}/${id}`, { withCredentials: true });
+      await axios.delete(`https://staybuddy-vm71.onrender.com/${path}/${id}`, { withCredentials: true });
       setList((prevList) => prevList.filter((item) => item._id !== id));
     } catch (err) {
       console.log(err);

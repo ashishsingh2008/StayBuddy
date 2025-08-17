@@ -19,7 +19,7 @@ app.use(cookieParser());
 app.use(express.json());
 
 // CORS configuration
-const allowedOrigins = ["http://localhost:5173", "http://localhost:3000"];
+const allowedOrigins = ["http://localhost:5173", "http://localhost:3000" , "https://stay-buddy-56h7.vercel.app" , "https://stay-buddy-peach.vercel.app"];
 app.use(
   cors({
     origin: function (origin, callback) {

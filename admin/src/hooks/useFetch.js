@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 
-const BASE_URL = "http://localhost:8800";
+const BASE_URL = "https://staybuddy-vm71.onrender.com";
 
 const useFetch = (url) => {
   const [data, setData] = useState([]);

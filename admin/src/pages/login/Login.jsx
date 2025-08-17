@@ -23,7 +23,7 @@ export const Login = () => {
 
         try {
             const res = await axios.post(
-                "http://localhost:8800/auth/login",
+                "https://staybuddy-vm71.onrender.com/auth/login",
                 credentials,
                 { withCredentials: true }
             );

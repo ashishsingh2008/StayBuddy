@@ -48,7 +48,7 @@ const NewHotel = () => {
         rooms,
         photos:list,
       };
-      await axios.post("http://localhost:8800/hotels", newHotel, {
+      await axios.post("https://staybuddy-vm71.onrender.com/hotels", newHotel, {
         withCredentials: true
       });
       alert("Hotel Added Successfully");
